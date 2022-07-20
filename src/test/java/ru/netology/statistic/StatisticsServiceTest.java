@@ -19,7 +19,7 @@ public class StatisticsServiceTest {
     }
 
     @Test
-    void findEquals() {
+    void findMaxIfNot() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {12, 5, 8, 4, 150, 3, 8, 6, 11, 11, 12};
